@@ -144,8 +144,7 @@ class Snake extends Phaser.GameObjects.GameObject {
   }
 
   gameOver() {
-    console.log("game over");
-    //alert("GAME OVER");
+    alert("GAME OVER");
     //console.log(this.segments.children.entries.length);
     //this.lostLife = false;
     this.scene.gameActive = false;
