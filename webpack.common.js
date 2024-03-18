@@ -38,7 +38,7 @@ module.exports = {
   devServer: {
     contentBase: path.resolve(__dirname, "build"),
     compress: true,
-    port: 5300,
+    port: 8080,
   },
   plugins: [
     new webpack.DefinePlugin({
